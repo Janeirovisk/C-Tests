@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+main(){
+	float Ant,N1,Suc;
+	cout<<"Informe o Numero: "<<endl;
+	cin>>N1;
+	cout<<"O Antecessor eh: "<<N1-1<<endl;
+	cout<<"O Sucessor eh: "<<N1+1<<endl;
+	system("pause");
+}
