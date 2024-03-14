@@ -1,0 +1,31 @@
+#include<iostream>
+#include<locale>
+
+using namespace std;
+
+int main(){
+    float user_num, RG, saldo, valor, opc;
+setlocale(LC_ALL,"portuguese");
+cout << "Informe o número da conta" << endl;
+cin >> user_num;
+cout << "Informe o seu RG" << endl;
+cin >> RG;
+cout << "Informe o seu saldo atual" << endl;
+cin >> saldo;
+cout << "informe a operação desejada:" << endl;
+cout << "1 para depósito ou 2 para saque" << endl;
+cin >> opc;
+
+if (opc == 1){
+    cout << "Informe o valor a ser depositado" << endl;
+    cin >> valor;
+    cout << "Seu novo saldo é: " << endl;
+    cout << saldo + valor << endl;
+    }
+else if (opc == 2){
+    cout << "Informe o valor a ser sacado" << endl;
+    cin >> valor;
+    cout << "Seu novo saldo é: " << endl;
+    cout << saldo - valor << endl;
+    }    
+}
