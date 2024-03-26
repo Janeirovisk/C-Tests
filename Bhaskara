@@ -1,0 +1,24 @@
+#include <iostream>
+#include <locale>
+#include <math.h>
+
+using namespace std;
+
+main(){
+	int a, b, c, x1, x2;
+	
+	cout<<"Informe o valor de A: "<<endl;
+	cin>>a;
+	cout<<"Informe o valor de B: "<<endl;
+	cin>>b;
+	cout<<"Informe o valor de C: "<<endl;
+	cin>>c;
+	
+	x1=-b + sqrt((b*b) - 4*a*c)/(2*a);
+	
+	x2=-b - sqrt((b*b) - 4*a*c)/(2*a);
+	
+	cout<<"O resultado foi: "<<endl;
+	cout<<x1<<endl;
+	cout<<x2<<endl;
+}
