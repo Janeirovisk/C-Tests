@@ -1,0 +1,37 @@
+#include <iostream>
+#include<locale>
+
+using namespace std;
+
+main(){
+	int code;
+	float qnt, valor;
+	cout<<"Informe o Codigo do produto"<<endl;
+	cin>>code;
+	cout<<"Informe a Quantidade"<<endl;
+	cin>>qnt;
+	
+	switch(code){
+		case 100: valor=7.00*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		case 101: valor=6.50*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		case 102: valor=7.50*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		case 103: valor=11.00*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		case 104: valor=12.99*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		case 105: valor=5.00*qnt;
+			cout<<"O Valor eh: R$"<<valor;
+			break;
+		default:
+			cout<<"Codigo invalido";
+			break;
+}
+}
