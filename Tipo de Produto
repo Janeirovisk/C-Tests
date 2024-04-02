@@ -1,0 +1,31 @@
+#include <iostream>
+#include<locale>
+
+using namespace std;
+
+main(){
+	int opc;
+	cout<<"Informe o codigo do produto"<<endl;
+	cin>>opc;
+	
+	switch(opc){
+		case 1:
+			cout<<"Alimento nao-perecivel";
+			break;
+		case 2 ... 4:
+			cout<<"Alimento perecivel";
+			break;
+		case 5 ... 6:
+			cout<<"Vestuario";
+			break;
+		case 7:
+			cout<<"Higiene pessoal";
+			break;
+		case 8 ... 15:
+			cout<<"Limpeza e Utensilios Domesticos";
+			break;
+		default:
+			cout<<"Opção Inválida";
+			break;		
+	}
+}
