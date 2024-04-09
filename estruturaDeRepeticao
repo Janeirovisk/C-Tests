@@ -1,0 +1,15 @@
+#include <iostream>
+#include <locale>
+
+using namespace std;
+
+main(){
+	int soma, i, valor;
+	soma=0;
+	for(i=0;i<=2;i++){
+		cout<<"Informe um valor para ser somado: "<<endl;
+		cin>>valor;
+		soma=soma+valor;
+	}
+	cout<<"O valor da soma eh: "<<soma;
+}
