@@ -1,0 +1,16 @@
+#include <iostream>
+#include <locale>
+
+using namespace std;
+
+main (){
+	int A, num, cont=0;
+	for(A=1;A<=5;A++){
+		cout<<"informe o numero"<<endl;
+		cin>>num;
+		if (num<0){
+			cont++;
+		}
+	}
+	cout<<"A quantidade de numeros negativos informados foi: "<<cont;
+}
